@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SimpleDatabaseComponent } from './simple-database.component';
+import { SimpleDatatableComponent } from './simple-datatable.component';
 
-describe('SimpleDatabaseComponent', () => {
-  let component: SimpleDatabaseComponent;
-  let fixture: ComponentFixture<SimpleDatabaseComponent>;
+describe('SimpleDatatableComponent', () => {
+  let component: SimpleDatatableComponent;
+  let fixture: ComponentFixture<SimpleDatatableComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SimpleDatabaseComponent]
+      imports: [SimpleDatatableComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SimpleDatabaseComponent);
+    fixture = TestBed.createComponent(SimpleDatatableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
